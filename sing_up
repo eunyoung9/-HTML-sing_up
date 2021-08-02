@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Sing_up</title>
+<style>
+    #pw_text{
+      color : red;
+      font-weight: bold;
+      font-size: small;
+    }
+    .text_cls
+    {
+      width : 120px;
+      float: left;
+    }
+</style>
+
+</head>
+<body>
+<form name = 'singup'>
+
+  <fieldset>
+    <!-- 아이디 -->
+    <text class = "text_cls">아이디</text>
+    <input type = "text" style = "width : 140px">
+    <button style = "width: 70px;">중복확인</button>
+    <br>
+    <br>
+
+    <!-- 비밀번호 -->
+    <text class = "text_cls">비밀번호</text>
+    <input type = "text" style = "width : 102px">
+    <input type = "text" style = "width : 102px">
+    <br>
+    <p id = "pw_text">10자리 이상 영문자, 숫자, 특수문자가 포함되어야 합니다. </p>
+    <br>
+
+    <!-- 전화번호 -->
+    <text class = "text_cls">전화번호</text>
+    <input type = "text" style = "width: 215px;">
+    <br>
+    <br>
+    
+    <!-- 주소 -->
+    <text class = "text_cls">주소</text>
+    <input type = "text" style="width: 140px;">
+    <button style = "width: 70px;">주소검색</button><br>
+
+    <text class = "text_cls">&nbsp;</text>
+    <input type = "text"  style = "width: 215px;">
+    <br>
+
+    <text class = "text_cls">&nbsp;</text>
+    <input type = "text"  style = "width: 215px;">
+    <br>
+    <br>
+    <br>
+
+    <button style = "width: 345px;">회원가입</button>
+  </fieldset>
+</form>
+
+</html>
